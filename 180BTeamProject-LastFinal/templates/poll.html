@@ -1,0 +1,29 @@
+<!-- SJSU CMPE 138 Spring 2022 TEAM9 -->
+
+{% extends "layout.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<article class="media content-section">
+  <form method = "POST" action="/poll">
+    <head>
+      <title>{{ data.question }}</title>
+    </head>
+    <body>
+    <h1>{{ data.question }}</h1>
+        <input type="radio" name="field" value="{{ data.team1 }}"> {{ data.team1 }}<br>
+        <input type="radio" name="field" value="{{ data.team2 }}"> {{ data.team2 }}<br>
+        <input type="submit" value="Vote"/>
+      </form>
+    </body>
+  </article>
+
+  <div class="div-admin">
+    <h1>Comments</h1>
+      <form method = "POST" action="/poll">
+        <input type="text" id="comments" name="comments" placeholder="Enter a comment"><br>
+        <button style="height:200;width:200x" type="submit" name="button1">Submit</button>
+      </form>
+  </div>
+</html>
+{% endblock content %}

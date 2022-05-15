@@ -1,0 +1,103 @@
+00:23:12,653 werkzeug WARNING  * Debugger is active!
+00:23:12,656 werkzeug INFO  * Debugger PIN: 605-724-586
+00:23:26,311 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:23:26] "GET /login HTTP/1.1" 200 -
+00:23:26,357 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:23:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+00:23:31,937 app INFO admin@blog.com logged in successfully
+00:23:31,937 root INFO admin@blog.com logged in successfully
+00:23:31,938 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:23:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+00:23:31,974 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:23:31] "GET /home HTTP/1.1" 200 -
+00:23:32,17 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:23:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+00:24:00,936 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:00] "GET /login HTTP/1.1" 200 -
+00:24:00,980 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+00:24:06,777 app INFO admin@blog.com logged in successfully
+00:24:06,778 root INFO admin@blog.com logged in successfully
+00:24:06,779 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+00:24:06,791 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:06] "GET /home HTTP/1.1" 200 -
+00:24:06,826 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+00:24:50,20 werkzeug INFO  * Detected change in '/Users/rohith/Desktop/CMPE 180B/project/180BTeamProject-main/app.py', reloading
+00:24:50,188 werkzeug WARNING  * Debugger is active!
+00:24:50,191 werkzeug INFO  * Debugger PIN: 605-724-586
+00:24:56,983 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:56] "GET /login HTTP/1.1" 200 -
+00:24:57,23 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:24:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+00:25:00,663 root INFO incorrect username or password
+00:25:00,664 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:25:00] "POST /login HTTP/1.1" 200 -
+00:25:00,704 werkzeug INFO 127.0.0.1 - - [30/Apr/2022 00:25:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+00:25:31,153 werkzeug INFO  * Detected change in '/Users/rohith/Desktop/CMPE 180B/project/180BTeamProject-main/app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 605-724-586
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:25:33] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:25:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:admin@blog.com logged in successfully
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:25:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:25:35] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:25:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/rohith/Desktop/CMPE 180B/project/180BTeamProject-main/app.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 605-724-586
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:19] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:admin@blog.com logged in successfully
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:25] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:25] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:30] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:30] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:32] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 00:27:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 605-724-586
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:27:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:27:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:27:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:27:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:27:56] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:27:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:admin@blog.com logged in successfully
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:05] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:47] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 10:28:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 605-724-586
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:10:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:10:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:admin@blog.com logged in successfully
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:10:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:10:11] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:10:11] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:11:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:11:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:incorrect username or password
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:11:25] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Apr/2022 11:11:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 605-724-586
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 605-724-586
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 15:03:59] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 15:03:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:Rohith Account created successfully
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 15:04:26] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 15:04:26] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2022 15:04:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -

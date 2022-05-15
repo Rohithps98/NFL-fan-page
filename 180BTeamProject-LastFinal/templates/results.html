@@ -1,0 +1,35 @@
+<!-- SJSU CMPE 138 Spring 2022 TEAM9 -->
+
+{% extends "layout.html" %}
+{% block content %}
+<html>
+  <article class="media content-section">
+<head>
+<title>{{ data.question }}</title>
+</head>
+<body>
+<h1>Results for: <br>{{ data.question }}</h1>
+</article>
+
+<article class="media content-section">
+<ul>
+  <li>Team 1's Standings: {{percentage1}}% </li>
+  <li>Team 2's Standings: {{percentage2}}% </li>
+  <li>Total Votes: {{total}}</li>
+</ul>
+</article>
+
+  <div class="div-admin">
+  <h1>Comments</h1>
+<ul>
+  {% for c in display_comments %}
+    <li>{{ c }}</li>
+  {% endfor %}
+</ul>
+</div>
+
+</body>
+</article>
+</html>
+{% endblock content %}
+ 
